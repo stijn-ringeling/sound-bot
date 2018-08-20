@@ -4,7 +4,11 @@ WORKDIR /app
 
 ADD . /app
 
-RUN pip insall --trusted-host pypi.python.org -r requirements.txt
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
+
+RUN apt-get update && apt-get install -y \
+    libopus0 \
+    ffmpeg
 
 ENV NAME World
 

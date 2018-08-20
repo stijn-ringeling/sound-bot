@@ -2,6 +2,7 @@ import array
 import ctypes
 import os
 import sys
+import ctypes.util
 
 from darkPy import helpers
 
@@ -10,8 +11,10 @@ c_int_ptr = ctypes.POINTER(ctypes.c_int)
 c_int16_ptr = ctypes.POINTER(ctypes.c_int16)
 c_float_ptr = ctypes.POINTER(ctypes.c_float)
 
+
 class EncoderStruct(ctypes.Structure):
     pass
+
 
 EncoderStructPtr = ctypes.POINTER(EncoderStruct)
 
@@ -23,6 +26,7 @@ exported_functions = [
     ('opus_encoder_ctl', None, ctypes.c_int32),
     ('opus_encoder_destroy', [EncoderStructPtr], None)
 ]
+
 
 def libopus_loader(name):
     lib = ctypes.cdll.LoadLibrary(name)
@@ -43,15 +47,18 @@ def libopus_loader(name):
 
     return lib
 
+
 try:
     if sys.platform == 'win32':
         _basedir = os.path.dirname(os.path.abspath(__file__))
         _bitness = 'x64' if sys.maxsize > 2**32 else 'x86'
-        _filename = os.path.join(_basedir, 'bin\\libopus-0.{}.dll'.format(_bitness))
-        print(_filename)
+        _filename = os.path.join(_basedir, os.path.join('bin', 'libopus-0.{}.dll'.format(_bitness)))
+        log.debug("Loaded opus from {}".format(_filename))
         _lib = libopus_loader(_filename)
     else:
-        _lib = libopus_loader(ctypes.util.find_library('opus'))
+        _filename = ctypes.util.find_library('opus')
+        log.info("Loaded opus from {}".format(_filename))
+        _lib = libopus_loader(_filename)
 except Exception as e:
     _lib = None
 

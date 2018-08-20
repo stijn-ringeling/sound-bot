@@ -1,0 +1,4 @@
+websockets
+requests
+youtube-dl
+PyNaCl
