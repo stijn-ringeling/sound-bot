@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba9a3d30-1144-4199-b236-2dcb91da494b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command_handlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command_handlers/command_handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/bin/libopus-0.x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/bin/libopus-0.x86.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/channel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/gateway.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/guild.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/opus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/darkPy/voice_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkPy/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packet.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkPy/packet.py" afterDir="false" />
+    <list default="true" id="13959f0b-de25-4bdd-ad5e-884e7d050a15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,259 +14,39 @@
     <session id="2121786690">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="lock" value="1" />
-          <entry key="log" value="3" />
-          <entry key="py" value="78" />
-          <entry key="txt" value="2" />
+          <entry key="Dockerfile" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Log" value="2" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="78" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="37" />
-          <entry key="py" value="44742" />
-          <entry key="txt" value="36" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="73" />
-          <entry key="Python" value="44742" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.create.new" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkPy/guild.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
-              <folding>
-                <marker date="1534682774239" expanded="true" signature="77:294" ph="..." />
-                <marker date="1534682774239" expanded="true" signature="194:294" ph="..." />
-                <marker date="1534682774239" expanded="true" signature="419:1013" ph="..." />
-                <marker date="1534682774239" expanded="true" signature="1025:1030" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/command_handlers/command_handlers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1534684762379" expanded="true" signature="158:265" ph="..." />
-                <marker date="1534684762379" expanded="true" signature="323:324" ph="..." />
-                <marker date="1534684762379" expanded="true" signature="2259:2264" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkPy/message.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkPy/state.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
-              <folding>
-                <marker date="1534682926180" expanded="true" signature="3065:3380" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/asyncio/tasks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="791" column="4" selection-start-line="791" selection-start-column="4" selection-end-line="791" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-              <folding>
-                <marker date="1533842232819" expanded="true" signature="661:770" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkPy/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="198" column="39" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1533831005508" expanded="true" signature="318:319" ph="..." />
-                <marker date="1533831005508" expanded="true" signature="1418:1468" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkPy/voice_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-532">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1534684597390" expanded="true" signature="3504:3882" ph="..." />
-                <marker date="1534684597390" expanded="true" signature="3900:3905" ph="..." />
-                <marker date="1534684597390" expanded="true" signature="5836:6100" ph="..." />
-                <marker date="1534684597390" expanded="true" signature="7621:12330" ph="..." />
-                <marker date="1534684597390" expanded="true" signature="10655:12330" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkPy/opus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="193" column="32" selection-start-line="193" selection-start-column="32" selection-end-line="193" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-                <marker date="1533824668704" expanded="true" signature="276:337" ph="..." />
-                <marker date="1533824668704" expanded="true" signature="827:832" ph="..." />
-                <marker date="1533824668704" expanded="true" signature="1626:1631" ph="..." />
-                <marker date="1533824668704" expanded="true" signature="1994:2075" ph="..." />
-                <marker date="1533824668704" expanded="true" signature="2511:2516" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/darkPy/packet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding>
-                <marker date="1533809340203" expanded="true" signature="102:192" ph="..." />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>logging</find>
-      <find>data</find>
-      <find>voice_cli</find>
-      <find>voice_state</find>
-      <find>close</find>
-      <find>get_channel</find>
-      <find>dispa</find>
-      <find>from_cl</find>
-      <find>_connected</find>
-      <find>self.delay</find>
-      <find>disconne</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>userdata</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/token.txt" />
-        <option value="$PROJECT_DIR$/session.py" />
-        <option value="$PROJECT_DIR$/heartbeatTimer.py" />
-        <option value="$PROJECT_DIR$/main_gateway.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/packet.py" />
-        <option value="$PROJECT_DIR$/helpers.py" />
-        <option value="$PROJECT_DIR$/user.py" />
-        <option value="$PROJECT_DIR$/message.py" />
-        <option value="$PROJECT_DIR$/channel.py" />
-        <option value="$PROJECT_DIR$/guild.py" />
-        <option value="$PROJECT_DIR$/state.py" />
-        <option value="$PROJECT_DIR$/gateway.py" />
-        <option value="$PROJECT_DIR$/client.py" />
-        <option value="$PROJECT_DIR$/opus.py" />
-        <option value="$PROJECT_DIR$/voice_client.py" />
-        <option value="$PROJECT_DIR$/command_handlers.py" />
-        <option value="$PROJECT_DIR$/command_handlers/__init__.py" />
-        <option value="$PROJECT_DIR$/darkPy/opus.py" />
-        <option value="$PROJECT_DIR$/darkPy/client.py" />
-        <option value="$PROJECT_DIR$/darkPy/gateway.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/darkPy/guild.py" />
-        <option value="$PROJECT_DIR$/darkPy/channel.py" />
-        <option value="$PROJECT_DIR$/darkPy/state.py" />
-        <option value="$PROJECT_DIR$/darkPy/voice_client.py" />
-        <option value="$PROJECT_DIR$/command_handlers/command_handlers.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -300,36 +60,12 @@
               <item name="sound-bot" type="b2602c69:ProjectViewProjectNode" />
               <item name="sound-bot" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sound-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sound-bot" type="462c0819:PsiDirectoryNode" />
-              <item name="command_handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sound-bot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sound-bot" type="462c0819:PsiDirectoryNode" />
-              <item name="darkPy" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/s154530/Documents/development/sound-bot/message.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\s154530\Documents\development\sound-bot\command_handlers" />
-      <recent name="C:\Users\s154530\Documents\development\sound-bot\darkPy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\s154530\Documents\development\sound-bot\bin" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -343,416 +79,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="sound-bot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
-      <module name="sound-bot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\s154530\.virtualenvs\sound-bot-IfHrheTY\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ba9a3d30-1144-4199-b236-2dcb91da494b" name="Default Changelist" comment="" />
-      <created>1533240755494</created>
+      <changelist id="13959f0b-de25-4bdd-ad5e-884e7d050a15" name="Default Changelist" comment="" />
+      <created>1534778497950</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533240755494</updated>
+      <updated>1534778497950</updated>
     </task>
-    <task id="LOCAL-00001" summary="First attempt at creating a gateway">
-      <created>1533560566215</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1533560566215</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08526107" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49966952" weight="0.32907802" />
-      <window_info anchor="bottom" id="Python Console" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5013441" side_tool="true" weight="0.45337158" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32904148" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.40315637" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49865592" weight="0.44539008" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="First attempt at creating a gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="First attempt at creating a gateway" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/darkPy/packet.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/session.py" />
-    <entry file="file://$USER_HOME$/.virtualenvs/sound-bot-IfHrheTY/Lib/site-packages/websockets/protocol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="500" selection-start-line="500" selection-end-line="500" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1626738954/websockets/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/sound-bot-IfHrheTY/Lib/site-packages/websockets/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/sound-bot-IfHrheTY/Lib/site-packages/websockets/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="419" column="4" selection-start-line="419" selection-start-column="4" selection-end-line="419" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log" />
-    <entry file="file://$PROJECT_DIR$/main_gateway.py" />
-    <entry file="file://$PROJECT_DIR$/heartbeatTimer.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/Pipfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/token.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" selection-start-column="59" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/asyncio/runners.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/asyncio/queues.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="149" column="14" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/sound-bot-IfHrheTY/Lib/site-packages/websockets/http.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/asyncio/events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/asyncio/sslproto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8160">
-          <caret line="481" selection-start-line="481" selection-end-line="481" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/websockets/compatibility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/ssl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="473" column="8" selection-start-line="473" selection-start-column="8" selection-end-line="473" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/asyncio/selector_events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="866" selection-start-line="866" selection-end-line="866" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command_handlers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-start-column="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/asyncio/coroutines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/gateway.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7480">
-          <caret line="452" column="60" selection-start-line="452" selection-start-column="60" selection-end-line="452" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1533831882977" expanded="true" signature="801:954" ph="..." />
-            <marker date="1533831882977" expanded="true" signature="5016:5302" ph="..." />
-            <marker date="1533831882977" expanded="true" signature="9549:10026" ph="..." />
-            <marker date="1533831882977" expanded="true" signature="10964:11039" ph="..." />
-            <marker date="1533831882977" expanded="true" signature="14107:14267" ph="..." />
-            <marker date="1533831882977" expanded="true" signature="14796:15083" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/packet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <marker date="1533809340203" expanded="true" signature="102:192" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/asyncio/base_events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="714" column="8" selection-start-line="714" selection-start-column="8" selection-end-line="714" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/asyncio/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="791" column="4" selection-start-line="791" selection-start-column="4" selection-end-line="791" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <marker date="1533842232819" expanded="true" signature="661:770" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/opus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="193" column="32" selection-start-line="193" selection-start-column="32" selection-end-line="193" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1533824668704" expanded="true" signature="276:337" ph="..." />
-            <marker date="1533824668704" expanded="true" signature="827:832" ph="..." />
-            <marker date="1533824668704" expanded="true" signature="1626:1631" ph="..." />
-            <marker date="1533824668704" expanded="true" signature="1994:2075" ph="..." />
-            <marker date="1533824668704" expanded="true" signature="2511:2516" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1626738954/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="2836" column="8" selection-start-line="2836" selection-start-column="8" selection-end-line="2836" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/guild.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
-          <folding>
-            <marker date="1534682774239" expanded="true" signature="77:294" ph="..." />
-            <marker date="1534682774239" expanded="true" signature="194:294" ph="..." />
-            <marker date="1534682774239" expanded="true" signature="419:1013" ph="..." />
-            <marker date="1534682774239" expanded="true" signature="1025:1030" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/channel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#29#50#0" expanded="true" />
-            <marker date="1534682823219" expanded="true" signature="2256:2261" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="198" column="39" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1533831005508" expanded="true" signature="318:319" ph="..." />
-            <marker date="1533831005508" expanded="true" signature="1418:1468" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
-          <folding>
-            <marker date="1534682926180" expanded="true" signature="3065:3380" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/darkPy/voice_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-532">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1534684597390" expanded="true" signature="3504:3882" ph="..." />
-            <marker date="1534684597390" expanded="true" signature="3900:3905" ph="..." />
-            <marker date="1534684597390" expanded="true" signature="5836:6100" ph="..." />
-            <marker date="1534684597390" expanded="true" signature="7621:12330" ph="..." />
-            <marker date="1534684597390" expanded="true" signature="10655:12330" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command_handlers/command_handlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1534684762379" expanded="true" signature="158:265" ph="..." />
-            <marker date="1534684762379" expanded="true" signature="323:324" ph="..." />
-            <marker date="1534684762379" expanded="true" signature="2259:2264" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
   </component>
 </project>
